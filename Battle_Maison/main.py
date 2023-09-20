@@ -1,6 +1,6 @@
 import os
 from random import choice as rc
-from time import sleep
+from time import sleep 
 
 rooms_map = [
 				{'name':'Entrance hall',
