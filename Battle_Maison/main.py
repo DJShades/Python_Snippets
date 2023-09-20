@@ -3,92 +3,92 @@ from random import choice as rc
 from time import sleep 
 
 rooms_map = [
-				{'name':'Entrance hall',
-				 'floor':0,
-				 'idx':0,
-				 'connecting':[1,3,4,6]
-				},
-				{'name':'Lounge',
-				 'floor':0,
-				 'idx':1,
-				 'connecting':[0,2]
-				},
-				{'name':'Dining room',
-				 'floor':0,
-				 'idx':2,
-				 'connecting':[1,3]
-				},
-				{'name':'Kitchen',
-				 'floor':0,
-				 'idx':3,
-				 'connecting':[0,2]
-				},
-				{'name':'Laundry room',
-				 'floor':0,
-				 'idx':4,
-				 'connecting':[0,5]
-				},
-				{'name':'Garage',
-				 'floor':0,
-				 'idx':5,
-				 'connecting':[4,15]
-				},
-				{'name':'Stairs',
-				 'floor':0.5,
-				 'idx':6,
-				 'connecting':[0,7]
-				},
-				{'name':'Landing',
-				 'floor':1,
-				 'idx':7,
-				 'connecting':[6,8,10,12,13,14]
-				},
-				{'name':'Master bedroom',
-				 'floor':1,
-				 'idx':8,
-				 'connecting':[7,9]
-				},
-				{'name':'Master bedroom ensuite',
-				 'floor':1,
-				 'idx':9,
-				 'connecting':[8]
-				},
-				{'name':'2nd bedroom',
-				 'floor':1,
-				 'idx':10,
-				 'connecting':[7,11]
-				},
-				{'name':'2nd bedroom ensuite',
-				 'floor':1,
-				 'idx':11,
-				 'connecting':[10]
-				},
-				{'name':'Guest bedroom',
-				 'floor':1,
-				 'idx':12,
-				 'connecting':[7]
-				},
-				{'name':'Bathroom',
-				 'floor':1,
-				 'idx':13,
-				 'connecting':[7]
-				},
-				{'name':'Office',
-				 'floor':1,
-				 'idx':14,
-				 'connecting':[7]
-				},
-				{'name':'Garden',
-				 'floor':0,
-				 'idx':15,
-				 'connecting':[5,3,16]
-				},
-				{'name':'Garden shed',
-				 'floor':0,
-				 'idx':16,
-				 'connecting':[15]
-				}			    
-			]
+	{'name':'Entrance hall',
+	 'floor':0,
+	 'idx':0,
+	 'connecting':[1,3,4,6]
+	},
+	{'name':'Lounge',
+	 'floor':0,
+	 'idx':1,
+	 'connecting':[0,2]
+	},
+	{'name':'Dining room',
+	 'floor':0,
+	 'idx':2,
+	 'connecting':[1,3]
+	},
+	{'name':'Kitchen',
+	 'floor':0,
+	 'idx':3,
+	 'connecting':[0,2]
+	},
+	{'name':'Laundry room',
+	 'floor':0,
+	 'idx':4,
+	 'connecting':[0,5]
+	},
+	{'name':'Garage',
+	 'floor':0,
+	 'idx':5,
+	 'connecting':[4,15]
+	},
+	{'name':'Stairs',
+	 'floor':0.5,
+	 'idx':6,
+	 'connecting':[0,7]
+	},
+	{'name':'Landing',
+	 'floor':1,
+	 'idx':7,
+	 'connecting':[6,8,10,12,13,14]
+	},
+	{'name':'Master bedroom',
+	 'floor':1,
+	 'idx':8,
+	 'connecting':[7,9]
+	},
+	{'name':'Master bedroom ensuite',
+	 'floor':1,
+	 'idx':9,
+	 'connecting':[8]
+	},
+	{'name':'2nd bedroom',
+	 'floor':1,
+	 'idx':10,
+	 'connecting':[7,11]
+	},
+	{'name':'2nd bedroom ensuite',
+	 'floor':1,
+	 'idx':11,
+	 'connecting':[10]
+	},
+	{'name':'Guest bedroom',
+	 'floor':1,
+	 'idx':12,
+	 'connecting':[7]
+	},
+	{'name':'Bathroom',
+	 'floor':1,
+	 'idx':13,
+	 'connecting':[7]
+	},
+	{'name':'Office',
+	 'floor':1,
+	 'idx':14,
+	 'connecting':[7]
+	},
+	{'name':'Garden',
+	 'floor':0,
+	 'idx':15,
+	 'connecting':[5,3,16]
+	},
+	{'name':'Garden shed',
+	 'floor':0,
+	 'idx':16,
+	 'connecting':[15]
+	}			    
+]
 
 class Game:
 	
